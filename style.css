@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mountains of Christmas';; 
+}
+
+body{
+    
+    background-image:url(arkaplan.jpg);
+    height: 100vh;
+    background-size:100% 100% 
+
+}
+    
+.container{
+    width:100%;
+    text-align: center;
+    margin-top: 200px;  
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+}
+#inputText{
+    width: 300px;
+    height: 46px;
+    border:1px solid brown;
+    outline:none;
+    font-size: 30px;
+    vertical-align: middle;
+    border:3px solid rgb(25, 113, 6);
+    border-radius: 15px;
+    color:black;
+}
+#addToDo{
+    height: 45px;
+    width:80px;
+    border:1px solid brown;
+    vertical-align: middle;
+    font-size: 25px;
+    outline:none;
+    border-radius: 15px;
+    color:rgb(180, 17, 17)
+
+}
+#clearToDo{
+    height: 45px;
+    width:80px;
+    border:1px solid brown;
+    vertical-align: middle;
+    font-size: 25px;
+    outline:none;
+    border-radius: 15px;
+    color:rgb(180, 17, 17);
+    cursor: pointer;
+    text-align: center;
+}
+#clearToDo:active{
+    background-color: rgb(180, 17, 17) ;
+    color:white;
+
+}
+#addToDo:active{
+    background-color:darkgreen;
+    color:white;
+}
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color:black;
+    text-transform: capitalize;
+}
+.to-dos{
+    margin-top: 15px;
+}
+
